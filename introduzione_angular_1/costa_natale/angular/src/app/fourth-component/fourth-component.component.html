@@ -1,1 +1,5 @@
 <h1 >ciao sono il <strong [style.color]="TextColor">{{ name }}</strong> component </h1>
+<div *ngFor="let pringles of pringlesInfo">
+    <h3>{{ pringles.flavor }}</h3>
+    <p>{{ pringles.description }}</p>
+  </div>
